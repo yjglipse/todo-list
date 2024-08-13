@@ -29,9 +29,10 @@ body{
 main{
     margin-block:50px;
     margin-inline: 100px;
-    background-color: ##b2b3da;
+    background-color: #b2b3da;
     border-radius: 20px;
 }
+
 
 #novo{
     width: 100%;
