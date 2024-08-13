@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+
+
+header{
+    background-color: #b2b3da;
+    height: 80px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+body{
+    height: 100vh;
+    margin: 20px;
+    height: 40px;
+    background: #b2b3da;;
+    border-radius: 40px;
+}
+
+main{
+    margin-block:50px;
+    margin-inline: 100px;
+    background-color: ##b2b3da;
+    border-radius: 20px;
+}
+
+#novo{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#novo input{
+    border: none;
+    border-radius: 10px;
+    width: 1280px;
+    height: 50px;
+    padding-inline: 20px;
+    margin-right: 15px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    color: #003169;
+    font-size: 25px;
+}
+
+input::placeholder{
+    color: #93c5fd;
+    padding-inline: 20px;
+    font-size: 25px;
+}
+
+
+#novo button{
+    border: none;
+    border-radius: 10px;
+    width: 3.125rem;
+    height: 3.125rem;
+    cursor: pointer;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b2b3da;
+}
+
+
+h2{
+    padding: 10px;
+    margin-left: 15px;
+    padding-left: 20px;
+    color: #5498e9;
+    font-weight: 500;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+ul{
+    margin-left: 10px;
+    color: azure;
+    font-weight: 200;
+    font-size: 25px ;
+    
+}
+
+
+
+#concluidas ul{
+    text-decoration: line-through;
+}
+
+h2,
+ul{
+    margin-left: 30px;
+}
